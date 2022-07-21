@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunal Kumar</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/skins/color-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" href="./images/icons8-portfolio-64.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="./css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="./css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="./css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="./css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="./css/style-switcher.css">
+</head>
+<body>
+
+   <div class ="main-container">
+    <div class=""aside>
+        <div class="logo">
+            <a href="#"><span>Kunal</span>Kumar</a>
+        </div>
+        <div class="nav-toggler">
+            <span></span>
+        </div>
+        <ul class="nav">
+            <li>
+                <a href="#home" class="active"><em class="fa fa-home"></em>Home</a>
+            </li>
+            <li>
+                <a href="#about"><em class="fa fa-user"></em>About</a>
+            </li>
+            <li>
+                <a href="#services"><em class="fa fa-list"></em>Services</a>
+            </li>
+            <li>
+                <a href="#portfolio"><em class="fa fa-briefcase"></em>Portfolio</a>
+            </li>
+            <li>
+                <a href="#contact"><em class="fa fa-comments"></em> Contacts</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <section class="home active section" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="home-info padd-15">
+                        <h3 class="hello">Hello, My Name Is <span class="name">Kunal Kumar</span></h3>
+                        <h3 class="my-profession">I'm <span class="typing">Programmer Web Developer </span></h3>
+                        <p>I am a beginner in Information Technology (IT), but an enthusiast and lover of software development and construction of web page interfaces.</p>
+                        <a href="https://drive.google.com/file/d/17BTRkV0SpQ0Qdvw2Bo2mAohpzbbk9vZL/view?usp=sharing" class="btn" target="_blank">View CV</a>
+
+                    </div>
+                    <div class="home-img padd-15">
+                        <img src="./images/IMG_20211113_183836_225.jpg" alt="Kunal">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title padd-15">
+                        <h2>About</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-text padd=15">
+                        <h3>My name is Kunal and I'm <span>...</span></h3>
+                        <p>Completed my senior secondary and secondary school from Bihar (India), but found in the codes the fulfillment of working and being able to help transform the world. Currently Pursuing Bachelor's in Technology with Computer Science and Engineering stream from Dr B.C Roy Engineering College, Durgapur.Professional with logical knowledge, practical sense and good perception of details in the safety of production processes.
+                            <br>
+                            <br>
+                            I'm a web developer with a focus on the MERN stack, but still exploring other technologies and frameworks that catch my interest.Also, I want to work as a C++ and Java developer or similar areas in order to learn and develop skills related to software developmen. I am available to freelance in these areas.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="personal-info padd-15">
+                        <div class="row">
+                            <div class="info-item padd-15">
+                                <p>Birth:<span>24 Jan 2002</span></p>
+                            </div>
+                            <div class="info-item padd-15">
+                                <p>Age: <span>20</span></p>
+                            </div>
+
+                            <div class="info-item padd-15">
+                                <p>Email:<span><a href = "mailto:kumarkunal4052002@gmail.com?subject = ForContact&body = Message">
+                                    kumarkunal4052002
+                                    </a></span></p>
+
+                            </div>
+                            <div class="info-item padd-15"><p>Github: <span><a href="https://github.com/kunalkumar37">kunalkumar37</a></span></p>
+                            </div>
+                            <div class="info-item padd-15">
+                                <p>Education: <span>B.Tech  (CSE)</span></p>
+                            </div>
+                            <div class="info-item padd-15"><p>Mobile: <span>+91 6203740061</span></p></div>
+                            <div class="infor-item padd-15">
+                                <p>City: <span>Durgapur-West Bengal</span></p>
+
+                            </div>
+
+                            <div class="info-item padd-15">
+                                <p>Full-Time Job: <span>Looking For</span></p>
+
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="buttons pad-15">
+                                <a href="#contact" data-section-index="1" class="btn hire-me">Contact Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    </div>
+
+
+
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+https://www.codechef.com/certificates/public/3453513
+
+
+
+
+
+
+
+
+
+
+
+
